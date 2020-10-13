@@ -26,4 +26,4 @@ new_housing_percentage = int(yearly_mortgage_expense) * 100 / int(new_annual_hou
 
 print("If you move your new housing percentage will be %i" % new_housing_percentage)
 
-print("Now you have an idea of what housing prices are equivalent at different payscales. If the percentage is mostly the same, with no other changes COL/lifestyle may be roughly similar. Currently your housing costs are %i of your income, if you relocate they will be %i." % (current_housing_percentage, new_housing_percentage))
+print("Now you have an idea of what housing prices are equivalent at different payscales. If the percentage is mostly the same, with no other changes COL/lifestyle may be roughly similar. Currently your housing costs are %i of your income, if you relocate housing costs will be %i." % (current_housing_percentage, new_housing_percentage))
